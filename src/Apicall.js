@@ -14,7 +14,6 @@ class Apicall extends Component {
             
         }
     }
-//AIzaSyAC9wnPs2Uxr3EfZt2J7AAyRi6CxD-b0uk
     componentDidMount() {
         axios.get("https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=38.031264,-78.4881806&radius=2000&types=restaurant&opennow=true&key="+API_KEY)
             .then(res => {
@@ -37,14 +36,6 @@ class Apicall extends Component {
                 </ul>
 
                 
-
-                <iframe
-                    frameBorder="0" 
-                    height = "500"
-                    width = "1000"
-                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAC9wnPs2Uxr3EfZt2J7AAyRi6CxD-b0uk
-                    &center=38.031264,-78.4881806&q=Alderman+Road">
-                </iframe>
 
 
 
